@@ -34,7 +34,7 @@ The structure of this game dataset, as shown in the figure:<br
 ##### Vertex: 151 monsters, 9 properties, 13 characters <br>
 ##### Edge: property relationship, damage doubling, damage halving, attribution, evolution relationship <br>
 
-! [monsters](/game-monsters-images/Frame1.png)
+! [monsters](yyh0808/nebula-monster-data/raw/master/game-monsters-images/Frame1.png)
 
 
 Let's start by looking up something related to a famous 025 yellow monster.
