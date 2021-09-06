@@ -34,43 +34,43 @@ The structure of this game dataset, as shown in the figure:<br
 ##### Vertex: 151 monsters, 9 properties, 13 characters <br>
 ##### Edge: property relationship, damage doubling, damage halving, attribution, evolution relationship <br>
 
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/Frame1.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/Frame1.png)
 
 
 Let's start by looking up something related to a famous 025 yellow monster.
 * Go to the studio graph exploration screen.
 * The top left corner confirms that we are currently in the Game_Monsters space (the space of the game dataset)
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image001.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image001.png)
 * Click the Start Exploration button on the right
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image002.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image002.png)
 * Enter vid: monster025
 
 * Click to confirm
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image003.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image003.png)
 
 You can find out the vertex of the yellow charged monster number 025. (VID is monster001 - monster151)
 
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image004.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image004.png)
 Double click on the point to automatically expand all related points
 
 For example, you can see the vertex of a certain monster with a longer tail and a charged partner, 026, of the evolutionary relation 025.
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image005.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image005.png)
 
 At the same time click on the attribute display button, check the box to select the attributes we need to display, you can see the vertex in the figure corresponding to the value of the attribute. For example: name, attack power, defense power, etc.
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image006.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image006.png)
 
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image007.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image007.png)
 
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image008.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image008.png)
 
 In the result of the query, we can also see that there is a vertex for the attribute, and the tag for the monster attribute, with the same name.
 
 > How to build the data structure often needs to be designed by the user
 
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image009.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image009.png)
 
 Clicking on this attribute vertex will automatically expand it, at this vertex we can visually view all the monsters with electric attributes, each vertices shows the corresponding attribute value, and intuitively find all the monsters of the electric family
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image010.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image010.png)
 
 With the right sidebar, we can also expand the edges exactly as needed.
 
@@ -78,9 +78,9 @@ For example, keeping only one vertex of the canvas, the electric property
 * delete the rest of the vertices of the canvas.
 * click on the edge type in the right sidebar and select only damage
 * Select outflow for direction, 1 for step, and leave everything else the same
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image011.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image011.png)
 * This time click the expand button, you can expand the attribute relationship, you can see the relationship of attacking other attributes through the edge, electricity attribute can do double damage to water attribute, but half damage to grass attribute, and very low damage to rock attribute.
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image012.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image012.png)
 
 
 ### Now, let's look up the character relationships
@@ -99,19 +99,19 @@ person11 <br>
 person12 <br>
 person13 <br>
 
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image013.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image013.png)
 
 From the results, you can see 8 big city dojo directors, former champions, and 4 major divas
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image014.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image014.png)
 
 Double click on a person's vertex to see the monsters he has
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image015.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image015.png)
 
 Clicking on each monster allows us to quickly expand the relationship and find the attributes that are incompatible with each other
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image016.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image016.png)
 
 Double click on the restraining attribute to quickly expand a group of monsters with that attribute, and select the monsters you have to double the damage on the boss's monsters, or select the monsters that halve the damage for defense.
-! [monsters](https://github.com/yyh0808/nebula-monster-data/raw/master/game-monsters-images/image017.png)
+! [monsters](https://github.com/yyh0808/nebula-monster-data/blob/master/game-monsters-images/image017.png)
 
 
 
